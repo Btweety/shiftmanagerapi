@@ -4,8 +4,7 @@ using System;
 using System.Collections.Generic;
 
 namespace ShiftManager.Services {
-	public class ModelAService
-    {
+	public class ModelAService {
 		MongoClient _client;
 		IMongoDatabase _db;
 		IMongoCollection<Model> modelColl;
